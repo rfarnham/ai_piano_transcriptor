@@ -1,2 +1,16 @@
 # Gitea agentic dev loop state
 .agentic_dev/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Local run outputs
+warped.mid
+warped_synth.wav
+*.ly
+*.pdf
+*.midi
+*.mid
+!samples/dolphin_dance_human.mid
+!samples/dolphin_dance_human.pdf
