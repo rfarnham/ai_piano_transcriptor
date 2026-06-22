@@ -12,5 +12,6 @@ warped_synth.wav
 *.pdf
 *.midi
 *.mid
+*.wav
 !samples/dolphin_dance_human.mid
 !samples/dolphin_dance_human.pdf
