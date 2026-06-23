@@ -19,6 +19,16 @@ An end-to-end Python pipeline that transcribes piano performances from audio, ma
 
 ***
 
+## Google Colab Notebook (Interactive Web Interface)
+
+For a quick, zero-setup experience, click the **Open In Colab** badge at the top. The Colab notebook wraps the CLI pipeline with an interactive web UI that supports:
+* **URL Audio Extraction**: Paste any YouTube, SoundCloud, or direct audio link, and the notebook will extract the audio automatically using `yt-dlp` (configured with client-spoofing to bypass cloud bot-detection blocks).
+* **Local Audio Upload**: Upload your own audio file (WAV/MP3/M4A) directly through the browser.
+* **Interactive MIDI Visualizer & Player**: Listen to the transcribed performance with a high-quality soundfont and watch the notes highlight dynamically on a virtual keyboard roll (using Magenta's `html-midi-player`).
+* **Instant Downloads**: Automatically download your typeset PDF score, quantized MIDI file, and synthesized WAV audio.
+
+***
+
 ## Features & Heuristics
 
 This project contains several custom heuristics designed to output sheet music that matches human-typeset readability standards.
