@@ -23,7 +23,7 @@ _DUR_INV = {v: k for k, v in _DUR_MAP.items()}
 _REST_VALS = sorted(_DUR_MAP.keys(), reverse=True)
 
 def midi_to_ly(midi_pitch, use_sharps=False):
-    """MIDI pitch → LilyPond absolute-pitch name.
+    r"""MIDI pitch → LilyPond absolute-pitch name.
     
     Note: LilyPond handles visual shifting under \ottava brackets,
     so we do not apply octave shifts here.
