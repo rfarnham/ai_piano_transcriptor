@@ -1,5 +1,7 @@
 # AI Piano Transcriptor & Typesetting Pipeline
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rfarnham/ai_piano_transcriptor/blob/main/ai_piano_transcriptor.ipynb)
+
 An end-to-end Python pipeline that transcribes piano performances from audio, maps rubato timings to a steady beat grid, resolves complex rhythms (including triplets), statefully splits notes between hands using physiological span constraints, and formats the output into clean, beautifully engraved LilyPond sheet music.
 
 ## Demo
